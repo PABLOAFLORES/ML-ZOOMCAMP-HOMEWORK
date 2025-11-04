@@ -2,7 +2,6 @@ FROM agrigorev/zoomcamp-model:2025
 
 WORKDIR /code
 
-#COPY pipeline_v2.bin .
 
 COPY App_Service.py .
 
