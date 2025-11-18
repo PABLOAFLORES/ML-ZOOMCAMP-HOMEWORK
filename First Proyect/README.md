@@ -107,6 +107,18 @@ Open a second terminal and run the client script test.py to verify that the cont
 Bash
 python test.py
 
+
+## 🔗 5. Deployment Evidence
+
+### Service URL
+
+The prediction service is available via **POST** requests at:
+
+http://localhost:9696/predict
+
+### Interaction Proof
+
+A video demonstrating the successful interaction with the deployed service is included https://github.com/PABLOAFLORES/ML-ZOOMCAMP-HOMEWORK/blob/main/First%20Proyect/Video_deploy.mp4. The video shows the Gunicorn server running in the Docker container (Terminal 1) and the successful execution of the `test.py` script (Terminal 2) with a 200 status code and a "BUY" prediction.
 ----------------------------------------------------------------------------------------------------
 
 SPA
@@ -208,3 +220,15 @@ Ejecutar el Contenedor: Lanza el servicio en el puerto 9696. Mantén esta termin
 Abre una segunda terminal y ejecuta el script cliente test.py para verificar que el contenedor responde correctamente.
 
 ***python test.py***
+
+## 🔗 5. Evidencia del Despliegue
+
+### URL del Servicio Desplegado
+
+El servicio de predicción está disponible mediante solicitudes **POST** en:
+
+$$\text{http://localhost:9696/predict}$$
+
+### Prueba de Interacción
+
+Se incluye un video que demuestra la interacción exitosa con el servicio desplegado https://github.com/PABLOAFLORES/ML-ZOOMCAMP-HOMEWORK/blob/main/First%20Proyect/Video_deploy.mp4. El video muestra el servidor Gunicorn ejecutándose en el contenedor de Docker (Terminal 1) y la ejecución exitosa del script `test.py` (Terminal 2) con un código de estado 200 y una predicción de "COMPRA".
