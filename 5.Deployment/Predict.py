@@ -16,8 +16,10 @@ def predict():
     customer = request.get_json()
 
     X = dv.transform([customer])
+    features = list(dv.get_feature_names_out())
+
     y_pred = model.predict_proba(X)[0,1]
-    churn = y_pred >= 0.5
+    churn = y_pred >= 0.3466
 
     result = {
         'churn_probability' : float(y_pred),

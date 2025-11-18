@@ -1,0 +1,5 @@
+# requirements.txt
+flask
+xgboost
+pandas
+scikit-learn
